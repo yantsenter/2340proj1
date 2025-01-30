@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ac7ea67-2ff3-40b1-baec-3c247a4044ce" name="Changes" comment="test commit" />
+    <list default="true" id="3ac7ea67-2ff3-40b1-baec-3c247a4044ce" name="Changes" comment="henry test commit. added stuff to readme file">
+      <change beforePath="$PROJECT_DIR$/.idea/DjangoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DjangoProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +41,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/yantsenter/2340proj1.git&quot;,
-    &quot;accountId&quot;: &quot;c3e563e9-d4fc-44c9-98bd-2e939094be30&quot;
+    &quot;accountId&quot;: &quot;6e736f02-b782-4781-b82d-fbe430bb43c0&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -57,14 +61,12 @@
     &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Davis&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -113,7 +115,8 @@
       <updated>1738103743590</updated>
       <workItem from="1738103744646" duration="839000" />
       <workItem from="1738105922152" duration="246000" />
-      <workItem from="1738168961467" duration="4848000" />
+      <workItem from="1738261302307" duration="27000" />
+      <workItem from="1738261335545" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -123,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738104183364</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="henry test commit. added stuff to readme file">
+      <option name="closed" value="true" />
+      <created>1738261436002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738261436003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +142,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="henry test commit. added stuff to readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="henry test commit. added stuff to readme file" />
   </component>
 </project>
