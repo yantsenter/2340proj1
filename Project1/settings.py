@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'project1app.apps.Project1AppConfig',
     'home',
     'movies',
+    'accounts',
 ]
 
 MIDDLEWARE = [
