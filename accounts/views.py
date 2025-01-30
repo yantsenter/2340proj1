@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.contrib.auth import login as auth_login, authenticate
+from django.contrib.auth import login as auth_login, authenticate, logout as auth_logout
 from .forms import CustomUserCreationForm, CustomErrorList
 from django.shortcuts import redirect
 from django.contrib.auth.decorators import login_required
@@ -20,8 +20,7 @@ def login(request):
             password = request.POST['password']
         )
         if user is None:
-            template_data['error'] =
-                'The username or password is incorrect.'
+            template_data['error'] = 'The username or password is incorrect.'
             return render(request, 'accounts/login.html',
                 {'template_data': template_data})
         else:
