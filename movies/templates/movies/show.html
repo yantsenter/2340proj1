@@ -16,14 +16,12 @@
               {% csrf_token %}
               <div class="col-auto">
                 <div class="input-group col-auto">
-                  <div class="input-group-text">Quantity
-                    </div>
+                  <div class="input-group-text">Quantity</div>
                   <input type="number" min="1" max="10" class="form-control quantity-input" name="quantity" value="1">
                 </div>
               </div>
               <div class="col-auto">
-                <button class="btn bg-dark text-white"
-                  type="submit">Add to cart</button>
+                <button class="btn bg-dark text-white" type="submit">Add to cart</button>
               </div>
             </div>
           </form>
@@ -42,7 +40,7 @@
             <p class="card-text">{{ review.comment }}</p>
           {% if user.is_authenticated and user == review.user %}
             <a class="btn btn-primary"
-              href="{% url 'movies.edit_review' id=template_data.movie.id review_id=review.id %}">Edit
+               href="{% url 'movies.edit_review' id=template_data.movie.id review_id=review.id %}">Edit</a>
               <a class="btn btn-danger"
               href="{% url 'movies.delete_review' id=template_data.movie.id review_id=review.id %}">Delete</a>
             {% endif %}
