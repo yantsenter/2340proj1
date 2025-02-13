@@ -12,7 +12,23 @@
       <div class="col mx-auto text-center mb-3">
         <h4>Dive into a universe of movies where every genre, era, and mood is just a click away.
             <br>From heartwarming dramas to edge-of-your-seat thrillers, we’ve got it all. </br>
-            <br>New releases, timeless classics, and hidden gems are waiting for you.<br></h4>
+            </h4>
+      <h2>New Releases:</h2>
+        <hr />
+      <div class="row">
+           {% for movie in template_data.movies|slice:":4" %}
+      <div class="col-md-4 col-lg-3 mb-2">
+        <div class="p-2 card align-items-center pt-4">
+          <img src="{{ movie.image.url }}" class="card-img-top rounded img-card-200">
+          <div class="card-body text-center">
+            <a href="{% url 'movies.show' id=movie.id %}" class="btn bg-dark text-white">
+              {{ movie.name }}
+            </a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      </div>
       </div>
     </div>
   </div>
